@@ -6,7 +6,7 @@
 fun main(args: Array<String>) {
     print("Введите имя пользователя:")
     val name: String?= readLine()
-    print("$name, какой язык программирования у тебя любимый?: ")
+    print("$name, какой твой любимый язык программирования?: ")
     val language: String?=readLine()
     val languageName: String
     languageName=when(language){
