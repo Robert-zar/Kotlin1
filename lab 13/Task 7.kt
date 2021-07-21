@@ -1,5 +1,5 @@
 /*Произведения цифр числа*/
-/*
+
 fun main(){
     try {
         val number = inputnumber()!!
@@ -102,4 +102,4 @@ fun minDigit(number: Int): Int {
     }
     return minDigit(number, 9)
 }
-*/
+
