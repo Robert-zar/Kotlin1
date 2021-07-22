@@ -1,5 +1,5 @@
 
-/* fun main(){
+ fun main(){
         val number = inputnumber();
     println("Сумма цифр числа равна: ${sumOfDigits(number)}")
 }
@@ -15,4 +15,4 @@ fun inputnumber(): Int {
 fun sumOfDigits(number: Int): Int =
     if (number/10 == 0)
         (number%10)
-else sumOfDigits(number/10) + (number%10) */
+else sumOfDigits(number/10) + (number%10) 
