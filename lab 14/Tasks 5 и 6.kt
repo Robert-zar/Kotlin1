@@ -1,6 +1,7 @@
 fun main(){
     val number=inputNumber()
-
+    
+       // task6
     /* считает сумму цифр, если каждая из них больше 3 */
     // calculateCondition(number, ::sumDigitsTail, ::checkDigits)
 
