@@ -1,5 +1,5 @@
 /* Произведение цифр числа. Рекурсия вверх */
-/*fun main(){
+fun main(){
     val number = inputNumber();
     println("Произведение цифр числа равна: ${multDigits(number)}")
 }
@@ -16,10 +16,11 @@ fun multDigits(number: Int): Int =
     if (number/10 == 0)
         (number%10)
 else
-    multDigits(number/10) * (number%10) */
+    multDigits(number/10) * (number%10)
+    
 
 /* Произведение цифр числа. Хвостовая рекурсия */
- /* fun main(){
+ fun main(){
     val number = inputNumber();
     println("Произведение цифр числа: ${multDigitsTail(number)}")
 }
@@ -39,10 +40,11 @@ else
 multDigitsTail(number / 10, mult * (number % 10))
 
 fun multDigitsTail(number: Int): Int =
-    multDigitsTail(number, 1) */
+    multDigitsTail(number, 1) 
+    
 
 /*Максимальная цифра числа. Рекурсия вверх*/
-/* fun main(){
+ fun main(){
     val number = inputNumber();
     println("Максимальная цифра числа: ${maxOfDigit(number!!)}")
 }
@@ -62,10 +64,11 @@ fun maxOfDigit(number: Int): Int {
         else max
     }
     else digit
-} */
+} 
+
 
 /*Максимальная цифра числа. Хвостовая рекурсия*/
-/* fun main(){
+ fun main(){
     val number = inputNumber();
     println("Максимальная цифра числа: ${maxOfDigitTail(number!!)}")
 }
@@ -89,11 +92,11 @@ fun maxOfDigitTail(number: Int): Int {
                 else newMax
     }
     return maxOfDigitTail(number, -1)
-} */
+} 
 
 
 /* Минимальная цифра числа. Рекурсия вверх */
-/* fun main(){
+ fun main(){
     val number = inputNumber();
  println("Минимальная цифра числа ${number?.let { minOfDigits(it) }}")
 }
@@ -112,10 +115,11 @@ fun minOfDigits(number: Int): Int {
         else min
     }
     else digit
-} */
+} 
+
 
  /* Минимальная цифра числа. Хвостовая рекурсия */
-/* fun main(){
+ fun main(){
     val number = inputNumber();
     println("Минимальная цифра числа ${number?.let { minOfDigitsTail(it) }}")
 }
@@ -123,8 +127,6 @@ fun inputNumber(): Int? {
     print("Введите число:")
     val number = readLine()!!.toInt()
     return number
-/* Минимальная цифра числа. Хвостовая рекурсия */
-
 }
 fun minOfDigitsTail(number: Int): Int {
     fun minOfDigitsTail(number: Int, min: Int): Int {
@@ -139,4 +141,4 @@ fun minOfDigitsTail(number: Int): Int {
         else newMin
     }
     return minOfDigitsTail(number, 9)
-} */
+} 
