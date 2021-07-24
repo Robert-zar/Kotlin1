@@ -1,3 +1,4 @@
+/*сумма цифр числа (рекурсия вверх)*/
 
  fun main(){
         val number = inputnumber();
