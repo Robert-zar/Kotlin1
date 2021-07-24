@@ -1,3 +1,5 @@
+/*сумма цифр числа (хвостовая рекурсия) */
+
 fun main(){
     val number = Inputnumber();
     println("Сумма цифр числа равна: ${sumOfDigitsTail(number)}")
