@@ -6,12 +6,12 @@ fun main(){
     printMass(varMinMax(mas))
 }
 
-fun SearchNum(mas: IntArray, inVal: Int, j: Int = 0): Int =
+fun SearchNum(mas: IntArray, accum: Int, j: Int = 0): Int =
     if (j < mas.size) {
-        if (mas[j] == inVal)
+        if (mas[j] == accum)
             j
-        else SearchNum(mas, inVal, j + 1)
-    } else inVal
+        else SearchNum(mas, accum, j + 1)
+    } else accum
 
 fun varMinMax(mas: IntArray): IntArray {
     val inMin = SearchNum(mas, minDigit(mas))
