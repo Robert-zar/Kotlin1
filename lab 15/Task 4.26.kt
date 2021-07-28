@@ -1,4 +1,5 @@
- import java.util.*
+// найти количество элементов между первым и последним минимальным
+import java.util.*
 fun main(){
     val mas = readMass()
     val min1 = arrayOp(mas, { min, x: Int -> if (x < min) x else min }, 10000)
