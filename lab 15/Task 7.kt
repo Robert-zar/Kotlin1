@@ -1,4 +1,5 @@
- import java.io.File
+// переписать задание 3 с использованием структуры — список.
+import java.io.File
 
 fun main(){
     val list = inputList()
