@@ -1,4 +1,5 @@
- import java.util.*
+// проверить наличие максимального элемента массива на интервале
+import java.util.*
 fun main(){
     val mas = readMass()
     println("Введите а: ")
@@ -6,7 +7,7 @@ fun main(){
     val a = input.nextInt()
     println("Введите b: ")
     val b = input.nextInt()
-    println("Ваш максимум ${checkMax(mas, a,b)}")
+    println("Максимум ${checkMax(mas, a,b)}")
 }
 fun checkMax(mas: IntArray, a: Int, b: Int): String {
     val inMax = SearchNum(mas, maxDigit(mas))
