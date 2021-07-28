@@ -6,7 +6,7 @@ fun main() {
     val mas = readMass()
     println("Введите индекс: ")
     val index = input.nextInt()
-    println("Ваш индекс ${CheckElem(mas, index)}")
+    println("Индекс ${CheckElem(mas, index)}")
 }
 fun readMass(): IntArray {
     val input = Scanner(System.`in`)
