@@ -1,4 +1,5 @@
- import java.util.*
+// поменять местами минимальный и максимальный элементы массива
+import java.util.*
 fun main(){
     val input = Scanner(System.`in`)
     val mas = readMass()
