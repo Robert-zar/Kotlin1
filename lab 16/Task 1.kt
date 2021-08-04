@@ -1,5 +1,5 @@
 
-/* fun main() {
+ fun main() {
     print("Ввод: ")
     val s = readLine()!!.toString()
 
@@ -18,4 +18,4 @@ fun maxNumber() {
         println("Ошибка: ${e.message}. Попробуй еще раз!\n")
         maxNumber()
     }
-} */
+} 
