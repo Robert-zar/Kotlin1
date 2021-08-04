@@ -4,7 +4,7 @@ import java.util.zip.DataFormatException
 fun main() {
     print("Ввод: ")
     val s = readLine()!!.toString()
-    val text = File("C:\\Users\\Арсен\\Desktop\\ккк").readText()
+    val text = File("Путь").readText()
      println("Dates (check file 'task3_example.txt'):\n")
      outputList<String>(findDates(text),"\n")
 }
